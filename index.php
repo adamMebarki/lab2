@@ -42,7 +42,7 @@
             while($row = $result->fetch_array()){
                 //process the $row
                 // print out fields from roz of data
-                echo "<p>" .$row['title'] . "<p>";
+                echo "<p>".$row['title'] ."<p>";
             }
 
             //6. Close connection to database
@@ -51,5 +51,17 @@
         ?>
 
     </p>
+
+
+    <p>
+        <ul>
+            <li><a href="allMovies.php">All Marvel's films</a></li>
+            <li><a href="marvelStudios.php">All films created by Marvel Studios</a></li>
+            <li><a href="dateMovies.php">All Marvel films created after 2010</a></li>
+            <li><a href="xmenFilms.php">All X-Men films</a></li>
+        </ul>
+    </p>
+
+
     </body>
 </html>
