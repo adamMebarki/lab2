@@ -8,7 +8,7 @@
             <p>
                 <br>LAB TWO<br>
                 <?php
-                    print "Bouyachaka";                }
+                    print "Bouyachaka";
                 ?>
             </p>
     </body>
