@@ -23,14 +23,10 @@
             $sql_query = "SELECT * FROM marvelmovies";
             $result = $db->query($sql_query);
             while($row = $result->fetch_array()){
-                echo "<p>".$row['title'] ."<p>";
+                echo "<p>".$row['title']. $row['yearReleased']. $row['productionStudio']. $row['notes']."<p>";
             }
             $result->close();
             $db->close();
-
-
-
-
             ?>
         </p>
     </body>
