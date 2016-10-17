@@ -8,11 +8,11 @@
 <p>
 
     <?php
-        $firstname = $_POST["firstname"];
+        $firstname = $_POST['firstname'];
         $lastname = $_POST["lastname"];
         $gender = $_POST["gender"];
         $mainpower = $_POST["mainpower"];
-        echo $firstname . $lastname;
+
      echo "Thank you Mr {$firstname} {$lastname} ! We will examinate your candidature for the SHIELD";
      echo "Gender :  {$gender}<br/> Main Power : {$mainpower}";
     ?>
