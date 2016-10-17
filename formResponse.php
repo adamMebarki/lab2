@@ -8,7 +8,7 @@
 <p>
 
     <?php
-        $firstname = $_POST['firstname'];
+        $firstname = $_POST["firstname"];
         $lastname = $_POST["lastname"];
         $gender = $_POST["gender"];
         $mainpower = $_POST["mainpower"];
