@@ -12,9 +12,11 @@
                     <input type=“text” name=“firstname”>
                 <label>Last Name</label>
                     <input type=“text” name=“lastname”>
+                <br/>
                 <label>Gender</label>
                     <input type="radio" name="gender" value="male"> Male<br>
                     <input type="radio" name="gender" value="female"> Female<br>
+                <br/>
                 <label>Main Superhero Power</label>
                     <input type=“text” name=“mainpower”>
                 <input type="submit" value="Submit">
