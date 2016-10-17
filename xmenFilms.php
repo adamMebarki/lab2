@@ -19,7 +19,7 @@
                 die('Connectfailed['.$db->connect_error.']');
             }
 
-            $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE '%X%' AND title LIKE '%X%MEN%'";
+            $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE 'X%' OR title LIKE '%X%MEN%'";
             $result = $db->query($sql_query);
             while($row = $result->fetch_array()){
                 echo "<p>".$row['title']. $row['yearReleased']. $row['productionStudio']. $row['notes']."<p>";
