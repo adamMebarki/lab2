@@ -13,7 +13,7 @@
                 <label>Last Name</label>
                     <input type=“text” name=“lastname”>
                 <br/>
-                <label>Gender</label>
+                <label>Gender</label><br/>
                     <input type="radio" name="gender" value="male"> Male<br>
                     <input type="radio" name="gender" value="female"> Female<br>
                 <br/>
