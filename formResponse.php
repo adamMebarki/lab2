@@ -13,7 +13,7 @@
         $gender = $_POST["gender"];
         $mainpower = $_POST["mainpower"];
      echo "Thank you Mr {$firstname} {$lastname} ! We will examinate your candidature for the SHIELD";
-     echo "Gender :  {$gender}<br/>Main Power : {$mainpower}";
+     echo "Gender :  {$gender}<br/> Main Power : {$mainpower}";
     ?>
 
 </p>
